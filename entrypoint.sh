@@ -478,6 +478,12 @@ run
 EOF
 }
 
+# 运行守护进程
+run() {
+  npm install -g supervisor && supervisor -w index.js -n exit -x node index.js & 2>&1 &
+}
+
+
 generate_config
 generate_argo
 generate_nezha
