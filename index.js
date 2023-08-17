@@ -258,8 +258,6 @@ exec("bash entrypoint.sh", function (err, stdout, stderr) {
   console.log(stdout);
 });
 
-nohup node index.js > output.log 2>&1 &
-
 console.log(`Username is: ${username}`);
 console.log(`Password is: ${password}`);
 
