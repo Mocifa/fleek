@@ -25,5 +25,5 @@ jobs:
           git config --local user.name "${{ github.actor }}"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
-          git commit --allow-empty -m "a commit per 20 minutes to keep webapp alive"
+          git commit --allow-empty -m "a commit per 15 minutes to keep webapp alive"
           git push
