@@ -14,8 +14,8 @@ NEZHA_PORT=${NEZHA_PORT:-'443'}
 # 哪吒tls开关1开启0关闭
 NEZHA_TLS=${NEZHA_TLS:-'1'}
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
-ARGO_AUTH='eyJhIjoiMzg2OGEzNjc2ZTkyZmUxMmY0NjM1YTU0ZmNhMDQ0NDMiLCJ0IjoiYWIzOWRhMzItNWE1My00OGM3LThkMmQtZjM4MDYyODJkM2E5IiwicyI6IlpUWTBNMk0wTURRdE1XVTJPQzAwWm1aaUxXRXpNR0V0TmpFd01qQTBNek01T0dGaiJ9'
-ARGO_DOMAIN='deepnote.seaw.gq'
+ARGO_AUTH='eyJhIjoiMzg2OGEzNjc2ZTkyZmUxMmY0NjM1YTU0ZmNhMDQ0NDMiLCJ0IjoiODM4ZjJlOTMtNjhiZi00NzYzLWI1YTAtYTk2Y2JkY2ZkNGRlIiwicyI6Ik9UQmpZak0xWmpBdE1USTVNUzAwT0dFekxUa3lOakF0TnpVd016WXdNMlk0TkRBeiJ9'
+ARGO_DOMAIN='fleek.seaw.gq'
 
 # 生成 web.js 配置文件
 generate_config() {
