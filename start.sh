@@ -4,7 +4,7 @@
 
 # web.js 参数
 WSPATH=${WSPATH:-'argo'}  # WS 路径前缀。(注意:伪装路径不需要 / 符号开始,为避免不必要的麻烦,请不要使用特殊符号.)
-UUID=${UUID:-'de04add9-5c68-8bab-950c-08cd5320df18'}
+UUID=${UUID:-'c2c3437a-a75e-47a8-8fe6-b78ede88a566'}
 
 # 哪吒三个参数，不需要的话可以留空，删除或在这三行最前面加 # 以注释
 # 哪吒设置，可选
@@ -15,7 +15,7 @@ NEZHA_PORT=${NEZHA_PORT:-'443'}
 NEZHA_TLS=${NEZHA_TLS:-'1'}
 # Argo 固定域名隧道的两个参数,这个可以填 Json 内容或 Token 内容，获取方式看 https://github.com/fscarmen2/X-for-Glitch，不需要的话可以留空，删除或在这三行最前面加 # 以注释
 ARGO_AUTH='eyJhIjoiMzg2OGEzNjc2ZTkyZmUxMmY0NjM1YTU0ZmNhMDQ0NDMiLCJ0IjoiODM4ZjJlOTMtNjhiZi00NzYzLWI1YTAtYTk2Y2JkY2ZkNGRlIiwicyI6Ik9UQmpZak0xWmpBdE1USTVNUzAwT0dFekxUa3lOakF0TnpVd016WXdNMlk0TkRBeiJ9'
-ARGO_DOMAIN='fleek.seaw.gq'
+ARGO_DOMAIN=''
 
 # 生成 web.js 配置文件
 generate_config() {
